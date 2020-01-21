@@ -5,6 +5,7 @@ set backspace=indent,eol,start
 set number
 set ts=4
 set sw=4
+set hlsearch
 map q 0i#<ESC>
 map m xj
 function Mcom(start, finish)
