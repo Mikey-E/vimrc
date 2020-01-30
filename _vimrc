@@ -6,6 +6,7 @@ set number
 set ts=4
 set sw=4
 set hlsearch
+set incsearch
 map q 0i#<ESC>
 map m xj
 function Mcom(start, finish)
