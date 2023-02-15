@@ -1,4 +1,4 @@
-color ron
+"color ron
 set guifont=Courier\ New:h20
 syntax on
 set backspace=indent,eol,start
@@ -28,4 +28,7 @@ function Ucom(start, finish)
 		let currPos += 1
 	endwhile
 	execute "normal! k"
+endfunction
+function Pybase()
+	call feedkeys("Adef main():\n\nif __name__ == \"__main__\":\n\tmain()\<ESC>", 't')
 endfunction
