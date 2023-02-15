@@ -30,5 +30,5 @@ function Ucom(start, finish)
 	execute "normal! k"
 endfunction
 function Pybase()
-	call feedkeys("Adef main():\n\nif __name__ == \"__main__\":\n\tmain()\<ESC>", 't')
+	call feedkeys("A\n\ndef main():\n\nif __name__ == \"__main__\":\n\tmain()\<ESC>gg", 't')
 endfunction
