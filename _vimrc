@@ -9,6 +9,11 @@ set hlsearch
 set incsearch
 map q 0i#<ESC>
 map m xj
+
+"e used to be end of word, w used to be beginning of next word
+map e 5l
+map w 5h
+
 function Mcom(start, finish)
 	let currPos = a:start
 	let fn = a:finish
